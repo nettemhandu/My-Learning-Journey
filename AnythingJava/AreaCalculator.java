@@ -1,8 +1,12 @@
+package AnythingJava;
+
 public class AreaCalculator {
 
     /**
-     * This is a area calculator that calculates the area of four different shapes
+     * This is an area calculator that calculates the area of four different shapes
      * Square, Rectangle, Triangle, Circle
+     * I learnt how to break functions/methods into smaller useful functions
+     * I also learnt error handling and useful Math module
      */
     public static void main(String[] args) {
         System.out.println("Thank you for using the area calculator");
