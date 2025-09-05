@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cda9a9;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 370px;
+  width: 90%;
+  background-color: #ece5e5;
+  border-radius: 24px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.image {
+  position: relative;
+  height: 120px;
+  width: 120px;
+  max-width: 40vw;
+  max-height: 40vw;
+  border-radius: 50%;
+  background-color: #4070f4;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.image .profile-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid#fff;
+}
+
+.profilecard .text-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.profile-card .media-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.media-buttons .link {
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  margin: 0 8px;
+  background-color: #4070f4;
+  text-decoration: none;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.job {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* For small screens (phones) */
+@media (max-width: 480px) {
+  .profile-card {
+    padding: 1rem;
+  }
+
+  .image {
+    height: 100px;
+    width: 100px;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+
+  .job {
+    font-size: 0.85rem;
+  }
+}
+
+/* For larger screens (tablets/desktops) */
+@media (min-width: 768px) {
+  .profile-card {
+    max-width: 450px;
+  }
+
+  .image {
+    height: 150px;
+    width: 150px;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .job {
+    font-size: 1.1rem;
+  }
+}
