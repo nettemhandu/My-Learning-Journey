@@ -29,9 +29,7 @@ public class App {
                 return daysOfTheWeek[5];
             case 7:
                 return daysOfTheWeek[6];
-            default:
-                System.out.println("Invalid input...");
         }
-    return "";
+    return "Invalid input...";
     }
 }
