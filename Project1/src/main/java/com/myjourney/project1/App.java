@@ -10,8 +10,7 @@ public class App {
     public static void main( String[] args ) {
         System.out.println("Pick a number from 1 - 7?");
         int userInput = scanner.nextInt();
-        String answer = matchTheDay(2);
-
+        System.out.println(matchTheDay(userInput));
     }
 
     public static String matchTheDay(int userInput) {
@@ -20,13 +19,12 @@ public class App {
                 return daysOfTheWeek[0];
                 break;
             case 2:
-                System.out.println(daysOfTheWeek[1]);
+                return daysOfTheWeek[0];
                 break;
             case 3:
-                System.out.println(daysOfTheWeek[2]);
-                break;
+                return daysOfTheWeek[0];
             case 4:
-                System.out.println(daysOfTheWeek[3]);
+                return daysOfTheWeek[0];
                 break;
             case 5:
                 System.out.println(daysOfTheWeek[4]);
