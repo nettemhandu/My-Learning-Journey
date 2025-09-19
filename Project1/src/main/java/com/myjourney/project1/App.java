@@ -17,24 +17,18 @@ public class App {
         switch (userInput) {
             case 1:
                 return daysOfTheWeek[0];
-                break;
             case 2:
-                return daysOfTheWeek[0];
-                break;
+                return daysOfTheWeek[1];
             case 3:
-                return daysOfTheWeek[0];
+                return daysOfTheWeek[2];
             case 4:
-                return daysOfTheWeek[0];
-                break;
+                return daysOfTheWeek[3];
             case 5:
-                System.out.println(daysOfTheWeek[4]);
-                break;
+                return daysOfTheWeek[4];
             case 6:
-                System.out.println(daysOfTheWeek[5]);
-                break;
+                return daysOfTheWeek[5];
             case 7:
-                System.out.println(daysOfTheWeek[6]);
-                break;
+                return daysOfTheWeek[6];
             default:
                 System.out.println("Invalid input...");
         }
