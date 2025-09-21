@@ -1,9 +1,7 @@
-package Project1.src.main.java.com.myjourney.project1;
-
-import java.awt.*;
+package za.co.wethinkcode;
 import java.util.Scanner;
 
-public class App {
+public class Main {
     private static String[] daysOfTheWeek = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
     private static Scanner scanner = new Scanner(System.in);
 
@@ -30,6 +28,6 @@ public class App {
             case 7:
                 return daysOfTheWeek[6];
         }
-    return "Invalid input...";
+        return "Invalid input...";
     }
 }
