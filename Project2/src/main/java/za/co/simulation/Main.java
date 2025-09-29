@@ -13,6 +13,9 @@ public class Main {
         System.out.print("Enter your Password: ");
         String input = scanner.nextLine();
 
-        for ()
+        for (int i = 0; i < input.length(); i++) {
+            char character = input.charAt(i);
+            if character
     }
+}
 }
