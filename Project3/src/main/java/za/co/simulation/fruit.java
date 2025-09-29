@@ -1,7 +1,11 @@
 package za.co.simulation;
 
 public class fruit {
-    private Double calories;
+    private double calories;
+
+    public fruit(double calories) {
+        this.calories = calories;
+    }
 
     public void makeJuice() {
         System.out.println("Juice has been made...");
