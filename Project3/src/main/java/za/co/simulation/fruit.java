@@ -1,7 +1,7 @@
 package za.co.simulation;
 
 public class fruit {
-    private double calories;
+    double calories;
 
     public fruit(double calories) {
         this.calories = calories;

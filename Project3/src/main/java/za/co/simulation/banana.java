@@ -4,6 +4,7 @@ public class banana extends fruit {
 
     public banana(double calories) {
         super(calories);
+        this.calories = 44.2;
     }
 
     public void peel(){

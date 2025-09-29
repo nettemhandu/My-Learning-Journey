@@ -4,6 +4,7 @@ public class apple extends fruit {
 
     public apple(double calories) {
         super(calories);
+        this.calories = 50.3;
     }
 
     public void removeSeeds(){
