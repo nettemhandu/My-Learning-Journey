@@ -1,6 +1,6 @@
 package za.co.simulation;
 
-public class Main {
+public class Market {
     public static void main(String[] args) {
         fruit one = new apple(23);
         one.makeJuice();
