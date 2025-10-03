@@ -8,6 +8,11 @@ public class WeddingCake extends Cake {
         flavor = "Vanilla";
     }
 
+    public int getTiers() {
+        return tiers;
+    }
 
-
+    public void setTiers(int tiers) {
+        this.tiers = tiers;
+    }
 }
