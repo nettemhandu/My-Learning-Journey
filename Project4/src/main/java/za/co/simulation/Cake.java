@@ -4,6 +4,10 @@ public class Cake {
     private String flavor;
     private int price;
 
+    public Cake(String flavor) {
+        this.flavor = flavor;
+    }
+
     public int getPrice() {
         return price;
     }
