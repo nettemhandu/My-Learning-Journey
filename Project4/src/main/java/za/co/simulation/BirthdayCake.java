@@ -7,5 +7,14 @@ public class BirthdayCake extends Cake {
 
     public BirthdayCake(String flavor) {
         super(flavor);
+        flavor = "chocolate";
+    }
+
+    public int getCandles() {
+        return candles;
+    }
+
+    public void setCandles(int candles) {
+        this.candles = candles;
     }
 }
