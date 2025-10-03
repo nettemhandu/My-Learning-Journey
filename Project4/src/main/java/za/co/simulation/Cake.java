@@ -4,7 +4,7 @@ public class Cake {
     private String flavor;
     private int price;
 
-    public Cake(String flavor) {
+    public Cake(String flavor, int price) {
         this.flavor = flavor;
     }
 

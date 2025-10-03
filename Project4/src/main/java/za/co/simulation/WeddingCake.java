@@ -3,9 +3,9 @@ package za.co.simulation;
 public class WeddingCake extends Cake {
     private int tiers;
 
-    public WeddingCake(String flavor) {
-        super(flavor);
-        flavor = "Vanilla";
+    public WeddingCake(String flavor, int price, int tiers) {
+        super(flavor, price);
+        this.tiers = tiers;
     }
 
     public int getTiers() {
