@@ -1,6 +1,6 @@
 package za.co.simulation;
 
-public class Account {
+public abstract class Account {
     private String name;
     private double balance;
     private int accNumber;
@@ -14,6 +14,7 @@ public class Account {
     }
 
     // getters and setters
+
     public String getName() {
         return name;
     }
@@ -48,4 +49,9 @@ public class Account {
 
     // methods
 
+    public abstract double deposit(double amount);
+
+    public abstract double withdraw(double amount);
+
+    public abstract double checkBalance();
 }
