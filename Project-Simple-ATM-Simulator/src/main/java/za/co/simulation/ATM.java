@@ -33,7 +33,11 @@ public class ATM {
         System.out.println("Wrong pin, please try again...");
     }
 
-    private static double depositMoney() {
-
+    private static double depositMoney(double amount, double balance) {
+        if (amount <= 0){
+            System.out.println("You can't deposit a negative number.");
+        } else {
+            balance += amount;
+        }
     }
 }
