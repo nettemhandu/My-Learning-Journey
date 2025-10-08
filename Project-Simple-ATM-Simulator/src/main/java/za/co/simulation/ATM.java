@@ -34,5 +34,6 @@ public class ATM {
     }
 
     private static double depositMoney() {
+
     }
 }

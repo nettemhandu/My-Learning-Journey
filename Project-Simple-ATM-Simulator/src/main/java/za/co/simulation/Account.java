@@ -3,8 +3,8 @@ package za.co.simulation;
 public abstract class Account {
     private String name;
     private double balance = 1000;
-    private int accNumber;
-    private String pin = "1234";
+    final private int accNumber;
+    final private String pin = "1234";
 
     public Account(String name, double balance, int accNumber, String pin) {
         this.name = name;
@@ -35,17 +35,10 @@ public abstract class Account {
         return accNumber;
     }
 
-    public void setAccNumber(int accNumber) {
-        this.accNumber = accNumber;
-    }
-
     public String getPin() {
         return pin;
     }
 
-    public void setPin(String pin) {
-        this.pin = pin;
-    }
 
     // methods
 
