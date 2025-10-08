@@ -13,5 +13,11 @@ public class ATM {
         System.out.println("Enter your pin: ");
 
         String pin = scan.nextLine();
+
+        while (pin.equals("1234")) {
+            System.out.println("Select an option:");
+            System.out.println("Deposit\n" + "Withdraw\n" + "Check Balance\n" + "Exit");
+        }
+        System.out.println("Wrong pin, please try again...");
     }
 }

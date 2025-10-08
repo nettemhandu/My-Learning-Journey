@@ -2,9 +2,9 @@ package za.co.simulation;
 
 public abstract class Account {
     private String name;
-    private double balance;
+    private double balance = 1000;
     private int accNumber;
-    private String pin;
+    private String pin = "1234";
 
     public Account(String name, double balance, int accNumber, String pin) {
         this.name = name;
