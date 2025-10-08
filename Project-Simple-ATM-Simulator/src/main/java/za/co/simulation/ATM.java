@@ -22,10 +22,17 @@ public class ATM {
             switch (option) {
                 case "Deposit":
                     return depositMoney();
+                case "Withdraw":
+                    return withdrawMoney();
+                case "Check":
+                    return checkBalance();
+                default:
                     break;
-
             }
         }
         System.out.println("Wrong pin, please try again...");
+    }
+
+    private static double depositMoney() {
     }
 }
