@@ -5,5 +5,9 @@ public class Farm {
         System.out.println("Welcome to the farm!");
         Pig piggy = new Pig();
         piggy.makeSound();
+
+        Duck duckie = new Duck();
+        duckie.makeSound();
+        duckie.eat();
     }
 }
