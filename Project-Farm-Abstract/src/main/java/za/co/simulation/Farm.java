@@ -8,6 +8,6 @@ public class Farm {
 
         Duck duckie = new Duck();
         duckie.makeSound();
-        duckie.eat();
+        duckie.eat("nettie");
     }
 }
