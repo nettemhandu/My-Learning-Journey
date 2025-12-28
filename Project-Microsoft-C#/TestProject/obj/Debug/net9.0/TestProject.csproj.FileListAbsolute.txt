@@ -1,0 +1,15 @@
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/bin/Debug/net9.0/TestProject
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/bin/Debug/net9.0/TestProject.deps.json
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/bin/Debug/net9.0/TestProject.runtimeconfig.json
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/bin/Debug/net9.0/TestProject.dll
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/bin/Debug/net9.0/TestProject.pdb
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/obj/Debug/net9.0/TestProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/obj/Debug/net9.0/TestProject.AssemblyInfoInputs.cache
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/obj/Debug/net9.0/TestProject.AssemblyInfo.cs
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/obj/Debug/net9.0/TestProject.csproj.CoreCompileInputs.cache
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/obj/Debug/net9.0/TestProject.sourcelink.json
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/obj/Debug/net9.0/TestProject.dll
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/obj/Debug/net9.0/refint/TestProject.dll
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/obj/Debug/net9.0/TestProject.pdb
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/obj/Debug/net9.0/TestProject.genruntimeconfig.cache
+/Users/Antonette/Desktop/My-Learning-Journey/Project-Microsoft-C#/TestProject/obj/Debug/net9.0/ref/TestProject.dll
