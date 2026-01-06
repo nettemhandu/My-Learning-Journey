@@ -3,11 +3,11 @@
   "version": 1,
   "cli": {
     "packageManager": "npm",
-    "analytics": "179949a5-311b-4210-be1f-6e186e3f717a"
+    "analytics": "a7a0abc8-824b-49a1-9325-e295c9352b62"
   },
   "newProjectRoot": "projects",
   "projects": {
-    "Hello-World": {
+    "hello-world": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -62,10 +62,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Hello-World:build:production"
+              "buildTarget": "hello-world:build:production"
             },
             "development": {
-              "buildTarget": "Hello-World:build:development"
+              "buildTarget": "hello-world:build:development"
             }
           },
           "defaultConfiguration": "development"
