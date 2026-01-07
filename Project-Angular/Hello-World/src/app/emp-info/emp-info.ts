@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-emp-info',
@@ -6,6 +6,16 @@ import { Component } from '@angular/core';
   templateUrl: './emp-info.html',
   styleUrl: './emp-info.css',
 })
-export class EmpInfo {
 
+export class EmpInfo implements OnInit {
+
+  infoReceived1 = string[]=[];
+  infoReceived1 = string[]=[];
+  infoReceived1 = string[]=[];
+
+  constructor(): { }
+
+  ngOnInit(): void {
+      
+  }
 }
