@@ -12,12 +12,11 @@ import { RecordsService } from "../records"
 export class EmpInfo implements OnInit {
 
   infoReceived1 = string[]=[];
-  infoReceived1 = string[]=[];
-  infoReceived1 = string[]=[];
+  infoReceived2 = string[]=[];
+  infoReceived3 = string[]=[];
 
-  constructor(): { }
+  constructor(private rservice: RecordsService): { }
 
   ngOnInit(): void {
-      
   }
 }
