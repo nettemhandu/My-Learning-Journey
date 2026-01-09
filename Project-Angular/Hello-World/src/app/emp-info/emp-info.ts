@@ -15,6 +15,8 @@ export class EmpInfo implements OnInit {
   infoReceived2 = string[]=[];
   infoReceived3 = string[]=[];
 
+  getInfoFromServiceClass
+
   constructor(private rservice: RecordsService): { }
 
   ngOnInit(): void {
