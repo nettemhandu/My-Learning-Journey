@@ -13,20 +13,26 @@ int[] studentScores = new int[10];
 
 foreach (string name in studentNames)
 {
-    if (name == "Sophie")
+    string currentStudent = name;
+
+    if (currentStudent == "Sophie")
     {
-        int sophiaSum = 0;
-        decimal sophiaScore;
-
-        foreach ( int score in sophieScores) {
-            sophiaSum += score;
-        }
-
-        sophiaScore = (decimal)sophiaSum / currentAssignments;
-
-        Console.WriteLine("Student\t\tGrade\n");
-        Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA-");
+        studentScores = sophieScores
     }
+    else if (currentStudent == "Andrew")
+
+    int sophiaSum = 0;
+    decimal sophiaScore;
+
+    foreach ( int score in sophieScores) {
+        sophiaSum += score;
+    }
+
+    sophiaScore = (decimal)sophiaSum / currentAssignments;
+
+    Console.WriteLine("Student\t\tGrade\n");
+    Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA-");
+    
 }
 
 Console.WriteLine("Press the Enter key to continue");
