@@ -20,12 +20,23 @@ foreach (string name in studentNames)
         studentScores = sophieScores
     }
     else if (currentStudent == "Andrew")
+    {
+        studentScores = andrewScrores;
+    }
+    else if (currentStudent == "Emma")
+    {
+        studentScores == emmaScores;
+    }
+    else if (studentScores == "Logan")
+    {
+        studentScores == loganScores;
+    }
 
-    int sophiaSum = 0;
-    decimal sophiaScore;
+    int sumAssignmentScores = 0;
+    decimal currentStudentGrade = 0;
 
-    foreach ( int score in sophieScores) {
-        sophiaSum += score;
+    foreach ( int score in studentScores) {
+        sumAssignmentScores += score;
     }
 
     sophiaScore = (decimal)sophiaSum / currentAssignments;
